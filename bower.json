@@ -1,0 +1,29 @@
+{
+  "name": "ghanpatel",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Ghan/ghanpatel-2015",
+  "authors": [
+    "Ghan <ghanpatel@gmail.com>"
+  ],
+  "description": "2015 site in react",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "react",
+    "portfolio"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "~0.12.2",
+    "vivus": "~0.1.2",
+    "less": "~2.4.0"
+  }
+}
