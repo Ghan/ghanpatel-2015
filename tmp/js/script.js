@@ -158,6 +158,6 @@ var SvgAnimate = React.createClass({
 });
 
 React.render(
-  <SvgAnimate url="/assets/svg/white-king.svg" id="white-king" duration="100" />,
+  <SvgAnimate url="assets/svg/white-king.svg" id="white-king" duration="100" />,
   document.getElementById('content')
 );
