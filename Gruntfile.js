@@ -15,6 +15,7 @@ module.exports = function(grunt) {
             '<%= bowerDir %>/react/react-with-addons.min.js',
             '<%= bowerDir %>/jquery/dist/jquery.js',
             '<%= bowerDir %>/showdown/src/showdown.js',
+            '<%= bowerDir %>/vivus/dist/vivus.js'
           ]
         }
       },
@@ -51,8 +52,11 @@ module.exports = function(grunt) {
     },
     watch: {
       styles: {
-        files: ['style/less/**/*.less'], // which files to watch
-        tasks: ['less'],
+        files: [
+          'style/less/**/*.less',
+          'js/*.js',
+          'js/**/*.js'], // which files to watch
+        tasks: ['concat', 'less'],
         options: {
           nospawn: true
         }
