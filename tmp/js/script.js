@@ -126,8 +126,6 @@
 //   document.getElementById('content')
 // );;// imports SVG from external path, then animates it
 
-var converter = new Showdown.converter();
-
 var SvgAnimate = React.createClass({
   getInitialState: function() {
     return {
